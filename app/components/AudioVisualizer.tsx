@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Sphere, Box, Line } from '@react-three/drei';
 import { useAudio } from '../contexts/AudioContext';
+import { AudioPosition } from '../types/audio';
+
 
 const AudioVisualizer: React.FC = () => {
   const { audioFile, processedAudio, audioSettings } = useAudio();
