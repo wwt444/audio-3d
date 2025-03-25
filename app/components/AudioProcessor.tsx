@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useAudio } from '../contexts/AudioContext';
-import { AudioPosition, ProcessedAudio } from '../types/audio';
+import { AudioPosition } from '../types/audio';
 
 const AudioProcessor: React.FC = () => {
   const { 
